@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard: Downloads & Engagement</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-body">
+<div><!-- wrapper -->
+  <header class="p-4 border-b-2 border-gray-300 bg-gray-50">
+    <h1 class="text-green-500">Dashboard: Plays & Engagement</h1>
+  </header>
+
+  <div class="grid grid-cols-3 gap-6">
+    <div>
+      <canvas id="myPlays" width="500" height="400"></canvas>
+    </div>
+    <div>
+      <canvas id="myLastMonths" width="500" height="400"></canvas>
+    </div>
+    <div>
+      <canvas id="myTopUsers" width="500" height="400"></canvas>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div>
+      <canvas id="mySongPlays" width="650" height="200"></canvas>
+    </div>
+  </div>
+</div><!-- end wrapper -->
+<script src="chart-dash.js"></script>
+</body>
+</html>
