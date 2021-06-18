@@ -1,2 +1,2 @@
-# dashboard1
+# Chart.js Dashboard
  dashboard-api
